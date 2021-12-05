@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subcontainer {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+li {
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #F2B8C1;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grocerylist li {
+    background: #F2B8C1;
+}
+
+.grocerylist li:nth-child(odd) {
+    background: #E18582;
+}
+
+.shoppingcart li {
+    background: #E5FEFE;
+}
+
+.shoppingcart li:nth-child(odd) {
+    background: #B5D6E3;
+}
